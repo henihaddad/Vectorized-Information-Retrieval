@@ -1,5 +1,4 @@
 
-
 # Information Retrieval System (Vector Model)
 
 A minimal yet powerful Python-based search engine that uses TF-IDF and cosine similarity to retrieve the most relevant documents from a custom corpus.
@@ -33,12 +32,12 @@ By focusing on clarity and modularity, this repository showcases fundamental IR 
 
 ```mermaid
 flowchart LR
-    A[1. Load Documents] --> B[2. Preprocessing <br>(Tokenizer, Stopwords, Stemming)]
+    A[1. Load Documents] --> B[2. Preprocessing (Tokenizer, Stopwords, Stemming)]
     B --> C[3. Inverted Index Construction]
     C --> D[4. TF-IDF Calculation]
-    D --> E[5. User Query <br>(Same Preprocessing)]
+    D --> E[5. User Query (Same Preprocessing)]
     E --> F[Search & Cosine Similarity]
-    F --> G[Ranked Results <br>(Top-k Documents)]
+    F --> G[Ranked Results (Top-k Documents)]
 ```
 
 - **Load Documents**: Reads text files from a specified directory.
@@ -169,13 +168,6 @@ def preprocess_text(text):
 - **Practical NLP Skills**: Highlights experience with text preprocessing, tokenization, stopwords, and TF-IDF.
 - **Scalability Potential**: A good starting point for building more advanced systems (BM25, BERT-based retrieval, etc.).
 
-## Contact
-
-For any questions or feedback, feel free to reach out:
-
-- **Name**: Your Name
-- **Email**: your.email@example.com
-- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
 
 ## License
 
