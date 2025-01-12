@@ -32,13 +32,12 @@ By focusing on clarity and modularity, this repository showcases fundamental IR 
 
 ```mermaid
 flowchart TB
-    A[1. Load Documents] --> B[2. Preprocessing: Tokenizer, Stopword Removal, Stemming]
-    B --> C[3. Inverted Index Construction]
-    C --> D[4. TF-IDF Calculation]
-    D --> E[5. User Query: Same Preprocessing Steps]
+    A[1- Load Documents] --> B[2- Preprocessing: Tokenizer, Stopword Removal, Stemming]
+    B --> C[3- Inverted Index Construction]
+    C --> D[4- TF-IDF Calculation]
+    D --> E[5- User Query: Same Preprocessing Steps]
     E --> F[Search & Cosine Similarity]
     F --> G[Ranked Results: Top-k Documents]
-
 
 ```
 
