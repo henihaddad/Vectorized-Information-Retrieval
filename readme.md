@@ -38,7 +38,6 @@ flowchart TB
     D --> E[5- User Query: Same Preprocessing Steps]
     E --> F[Search & Cosine Similarity]
     F --> G[Ranked Results: Top-k Documents]
-
 ```
 
 - **Load Documents**: Reads text files from a specified directory.
